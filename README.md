@@ -8,12 +8,14 @@ This guide provides sample prompts demonstrating how to interact with various MC
 * **Request Focused Assistance:** When prompting Claude, instruct the MCP to only focus on what you've specifically asked for. This prevents unintended actions and keeps responses relevant.
 * **Always Request Confirmation:** Tell Claude to always ask for explicit confirmation before making any changes to your Salesforce org. This provides an important safety check before modifications are applied.
 * **Request Action Plans:** Ask Claude to create and present a plan of proposed changes before executing them. This allows you to review and approve the specific actions that will be taken in your org.
+* **APEX Coding**: If you are asking it to write APEX code or LWC's, just add a line telling it not to attempt any deployments, unless you are using an IDE which can do so.
 * **Example Prompt:** "Please analyze my custom objects, but before making any changes, show me a plan of what you're proposing to modify and wait for my approval."
+
 
 
 ## salesforce_apex_deploy  
 
-##NOTE: This Apex deploy will only work in an IDE with AI capabilty ie Cursor, VSCODE with MCP Enabled tooling.
+**NOTE:** This Apex deploy will only work in an IDE with AI capabilty ie Cursor, VSCODE with MCP Enabled tooling.
 
 Use following prompt as one big prompt for custoer to deploy your classes.
 
@@ -24,6 +26,7 @@ Use following prompt as one big prompt for custoer to deploy your classes.
 - Generate the class file and its meta.xml using Salesforce CLI
 - Verify the file contents and Deploy the class to my org
 - Use this guide for connected apps deployment [agentforce.md](https://github.com/iimransarwar/mcp-server-salesforce/blob/main/agentforce.md)
+
 ## salesforce_apex_test_runner
 
 **Description:**  
