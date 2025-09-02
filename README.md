@@ -11,7 +11,9 @@ This guide provides sample prompts demonstrating how to interact with various MC
 * **Example Prompt:** "Please analyze my custom objects, but before making any changes, show me a plan of what you're proposing to modify and wait for my approval."
 
 
-## salesforce_apex_deploy
+## salesforce_apex_deploy  
+
+##NOTE: This Apex deploy will only work in an IDE with AI capabilty ie Cursor, VSCODE with MCP Enabled tooling.
 
 Use following prompt as one big prompt for custoer to deploy your classes.
 
