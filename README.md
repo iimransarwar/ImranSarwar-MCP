@@ -2,6 +2,15 @@
 
 This guide provides sample prompts demonstrating how to interact with various MCP tools. Each tool is listed with a brief description and example prompts to illustrate its functionality.
 
+
+## 🛡️ Safety & Best Practices
+
+* **Request Focused Assistance:** When prompting Claude, instruct the MCP to only focus on what you've specifically asked for. This prevents unintended actions and keeps responses relevant.
+* **Always Request Confirmation:** Tell Claude to always ask for explicit confirmation before making any changes to your Salesforce org. This provides an important safety check before modifications are applied.
+* **Request Action Plans:** Ask Claude to create and present a plan of proposed changes before executing them. This allows you to review and approve the specific actions that will be taken in your org.
+* **Example Prompt:** "Please analyze my custom objects, but before making any changes, show me a plan of what you're proposing to modify and wait for my approval."
+
+
 ## salesforce_apex_deploy
 
 Use following prompt as one big prompt for custoer to deploy your classes.
