@@ -15,7 +15,7 @@ This guide provides sample prompts demonstrating how to interact with various MC
 
 ## salesforce_apex_deploy  
 
-**NOTE:** This Apex deploy will only work in an IDE with AI capabilty ie Cursor, VSCODE with MCP Enabled tooling.
+**NOTE: This Apex deploy will only work in an IDE with AI capabilty ie Cursor, VSCODE with MCP Enabled tooling.**
 
 Use following prompt as one big prompt for custoer to deploy your classes.
 
